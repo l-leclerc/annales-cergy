@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Gris clair */
 }
 
 table {
@@ -14,6 +15,22 @@ th, td {
     padding: 10px;
 }
 
+thead {
+    background-color: #d3d3d3; /* Gris plus foncé */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Blanc */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e6e6e6; /* Gris clair */
+}
+
 tbody tr:hover {
     background-color: lightgray;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 20%; /* Ajustement pour équilibrer la taille des colonnes */
 }
